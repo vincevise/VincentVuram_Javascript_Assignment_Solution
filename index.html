@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title> 
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Type your Testing speed</h1>
+            <div class="stats">
+                
+                <div>Errors<p id="errors">0</p></div>
+                <div>Time<p id="timer">0s</p></div>
+                <div>%Accuracy<p id="accuracy">100</p></div>
+                <div class="result wpm-result">WPM<p id="wpm"></p></div>
+                <div class="result cpm-result">CPM<p id="cpm"></p></div>
+            </div> 
+        <div id="quote" class="quote-class"  >
+            Click on the button below to start the game
+        </div>
+
+        <textarea id="quote-input" placeholder="Start typing here.. "  > </textarea> 
+        <button id="restart-test" onclick="location.reload() ">Restart</button> 
+        
+        
+    </div> 
+    <script src="script.js"></script>
+    </body>
+</html>
