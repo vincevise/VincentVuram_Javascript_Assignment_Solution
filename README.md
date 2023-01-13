@@ -7,6 +7,8 @@
 
 # Typing Speed Test Application
 
+<a href="https://vincevise.github.io/VincentVuram_Javascript_Assignment_Solution/">Live Website</a>
+
 Create a Simple Typing speed application in JavaScript.
 
 The application should have some dummy text which the user will type
